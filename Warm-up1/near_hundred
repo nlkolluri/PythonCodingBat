@@ -1,0 +1,9 @@
+#Solution 1
+def near_hundred(n):
+  return abs(100-n)<=10 or abs(200-n)<=10
+  
+#Solution 2
+def near_hundred(n):
+  if abs(100-n)<=10: return True
+  if abs(200-n)<=10: return True
+  else: return False
