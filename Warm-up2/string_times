@@ -1,0 +1,4 @@
+def string_times(str, n):
+  holder = ""
+  for i in range(n): holder+=str
+  return holder
