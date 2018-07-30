@@ -1,0 +1,5 @@
+def front_times(str, n):
+  output=""
+  for i in range(n): 
+    output+=str[:3]
+  return output
