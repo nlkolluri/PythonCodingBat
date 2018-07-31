@@ -1,0 +1,3 @@
+def extra_end(str):
+  start = len(str)-2
+  return str[start:]+str[start:]+str[start:]
