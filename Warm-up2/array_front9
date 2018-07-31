@@ -1,0 +1,6 @@
+def array_front9(nums):
+  counter=0
+  for i in nums:
+    counter+=1
+    if (counter<4) and i==9: return True
+  return False  
