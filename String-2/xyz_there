@@ -1,0 +1,5 @@
+def xyz_there(str):
+  for i in range(len(str)):
+    substr = str[i:i+4]
+    if (substr[0] != "." and substr[1:] == "xyz") or str[:3]=="xyz": return True
+  return False
