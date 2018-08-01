@@ -1,0 +1,6 @@
+def squirrel_play(temp, is_summer):
+  if temp>=60:
+    if not is_summer and temp>90: return False
+    if temp>100: return False
+    return True
+  return False
