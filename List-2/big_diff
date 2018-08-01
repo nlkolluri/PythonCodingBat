@@ -1,0 +1,7 @@
+def big_diff(nums):
+  theMax=-20
+  theMin=20
+  for i in range(len(nums)):
+    theMax=max(nums[i],theMax)
+    theMin=min(nums[i],theMin)
+  return theMax-theMin
