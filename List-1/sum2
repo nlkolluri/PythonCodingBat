@@ -1,0 +1,5 @@
+def sum2(nums):
+  total=0
+  for i in nums[:2]:
+    total+=i
+  return total
