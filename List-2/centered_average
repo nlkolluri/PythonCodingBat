@@ -1,0 +1,10 @@
+def centered_average(nums):
+  theMax=-20000
+  theMin=20000
+  theSum=0
+  for i in range(len(nums)):
+    theMax=max(nums[i],theMax)
+    theMin=min(nums[i],theMin)
+    theSum+=nums[i]
+  theAvg=(theSum-theMax-theMin)/(len(nums)-2)
+  return theAvg
