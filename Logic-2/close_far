@@ -1,0 +1,8 @@
+def close_far(a, b, c):
+  firstDiff=abs(a-b)
+  secDiff=abs(a-c)
+  cbDist = abs(c-b)
+  
+  oneClose = firstDiff<=1 or secDiff<=1 
+  twoFar = (firstDiff>=2  or secDiff>=2 ) and cbDist>=2
+  return oneClose and twoFar
