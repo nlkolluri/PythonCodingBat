@@ -1,0 +1,7 @@
+def lone_sum(a, b, c):
+ sum=0
+ if (a is not b and b is not c and a is not c): return a+b+c
+ if (a is not b and b is not c): return b
+ if (a is not c and b is not c): return c
+ if (a is not c and a is not b): return a
+ if (a is b and b is c): return 0
