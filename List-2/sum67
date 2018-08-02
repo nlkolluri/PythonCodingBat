@@ -1,0 +1,8 @@
+def sum67(nums):
+  sum=0
+  ignore=0
+  for i in nums:
+    if i==6: ignore=1
+    if not ignore: sum+=i
+    if i==7: ignore=0
+  return sum
